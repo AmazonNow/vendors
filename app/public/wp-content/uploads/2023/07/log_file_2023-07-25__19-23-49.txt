@@ -1,0 +1,52 @@
+
+---Downloaded files---
+The import files for: ReDokanNew were successfully downloaded!
+Initial max execution time = 1200
+Files info:
+Site URL = http://amazonnow.local
+Data file = C:\Users\HP\Local Sites\amazonnow\app\public/wp-content/uploads/2023/07/demo-content-import-file_2023-07-25__19-23-49.xml
+Widget file = C:\Users\HP\Local Sites\amazonnow\app\public/wp-content/uploads/2023/07/demo-widgets-import-file_2023-07-25__19-23-49.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+
+
+---Importing widgets---
+Post Sidebar Area : 
+
+ReHub: Ajax Tabs - No Title - Widget already exists
+ReHub: Sticky on scroll - No Title - Widget already exists
+
+Footer 1 : 
+
+Text - About Rehub - Widget already exists
+
+Footer 2 : 
+
+Text - No Title - Widget already exists
+
+Footer 3 : 
+
+Text - Sign Up for Weekly Newsletter - Widget already exists
+Image - No Title - Widget already exists
+
+Woocommerce shop sidebar : 
+
+Filter Products by Price - Filter by price - Widget already exists
+Filter Products by Attribute - Color - Widget already exists
+Filter Products by Attribute - Memory - Widget already exists
+Filter Products by Attribute - Display Type - Widget already exists
+Filter Products by Attribute - Operation System - Widget already exists
+Filter Products by Rating - Average rating - Widget already exists
+
+Woocommerce product sidebar : 
+
+ReHub: Latest Woo Comparisons - Latest Comparisons - Widget already exists
+ReHub: Top Offers/Products - Top offers - Widget already exists
+
+
+
+---ocdi/after_import---
+Theme Options was updated-------Customizer was updated-------Menu was assigned-------HomePage was assigned-------

@@ -1,0 +1,26 @@
+2023-07-25T20:26:28+00:00 CRITICAL Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, null given in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\rehub-framework\inc\widgets\dealwoo.php:25
+Stack trace:
+#0 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\rehub-framework\inc\widgets\dealwoo.php(25): extract(NULL)
+#1 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\widgets\wordpress.php(256): rehub_deal_daywoo_widget->widget(NULL, Array)
+#2 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2268): Elementor\Widget_WordPress->render()
+#3 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#4 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#5 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\element-base.php(449): Elementor\Widget_Base->print_content()
+#6 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1354): Elementor\Element_Base->print_element()
+#7 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\element-base.php(449): Elementor\Element_Base->print_content()
+#8 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1354): Elementor\Element_Base->print_element()
+#9 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\element-base.php(449): Elementor\Element_Base->print_content()
+#10 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\core\base\document.php(1711): Elementor\Element_Base->print_element()
+#11 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\core\base\document.php(1106): Elementor\Core\Base\Document->print_elements(Array)
+#12 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#13 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\frontend.php(1074): Elementor\Frontend->get_builder_content(1401)
+#14 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->apply_builder_in_content('<a href="http:/...')
+#15 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#16 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\post-template.php(255): apply_filters('the_content', '<a href="http:/...')
+#17 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\page.php(133): the_content()
+#18 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\HP\\Loc...')
+#19 C:\Users\HP\Local Sites\amazonnow\app\public\wp-blog-header.php(19): require_once('C:\\Users\\HP\\Loc...')
+#20 C:\Users\HP\Local Sites\amazonnow\app\public\index.php(17): require('C:\\Users\\HP\\Loc...')
+#21 {main}
+  thrown in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\rehub-framework\inc\widgets\dealwoo.php on line 25
+

@@ -1,0 +1,182 @@
+[25-Jul-2023 18:41:12 UTC] PHP Warning:  Undefined array key "rh-fake-acivity" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\screens\plugins.php on line 291
+[25-Jul-2023 18:43:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Content EGG')
+#1 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(3645): Bulk_Upgrader_Skin->after('Content EGG')
+#2 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-wp-upgrader.php(841): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(3265): WP_Upgrader->run(Array)
+#4 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(3378): TGMPA_Bulk_Installer->run(Array)
+#5 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(2984): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(750): TGMPA_List_Table->process_bulk_actions()
+#7 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\HP\\Loc...')
+#12 {main}
+  thrown in C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+[25-Jul-2023 18:43:46 UTC] PHP Warning:  Undefined array key "rh-fake-acivity" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\screens\plugins.php on line 291
+[25-Jul-2023 19:08:21 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 100' at line 1 for query SELECT SQL_CALC_FOUND_ROWS * FROM wp_postmeta WHERE meta_key IN () LIMIT 100 made by require_once('wp-admin/admin-header.php'), do_action('admin_notices'), WP_Hook->do_action, WP_Hook->apply_filters, ContentEgg\application\components\ReviewNotice->displayNotice, ContentEgg\application\models\ProductModel->maybeScanProducts, ContentEgg\application\models\ProductModel->scanProducts
+[25-Jul-2023 19:08:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Elementor')
+#1 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(3645): Bulk_Upgrader_Skin->after('Elementor')
+#2 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-wp-upgrader.php(841): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(3265): WP_Upgrader->run(Array)
+#4 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(3378): TGMPA_Bulk_Installer->run(Array)
+#5 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(2984): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(750): TGMPA_List_Table->process_bulk_actions()
+#7 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\HP\\Loc...')
+#12 {main}
+  thrown in C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+[25-Jul-2023 19:08:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Greenshift - pa...')
+#1 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(3645): Bulk_Upgrader_Skin->after('Greenshift - pa...')
+#2 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-wp-upgrader.php(841): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(3265): WP_Upgrader->run(Array)
+#4 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(3378): TGMPA_Bulk_Installer->run(Array)
+#5 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(2984): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(750): TGMPA_List_Table->process_bulk_actions()
+#7 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\HP\\Loc...')
+#12 {main}
+  thrown in C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+[25-Jul-2023 19:08:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\script-loader.php:2845) in C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\pluggable.php on line 1427
+[25-Jul-2023 19:08:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\script-loader.php:2845) in C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\pluggable.php on line 1430
+[25-Jul-2023 19:08:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Greenshift Anim...')
+#1 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(3645): Bulk_Upgrader_Skin->after('Greenshift Anim...')
+#2 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-wp-upgrader.php(841): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(3265): WP_Upgrader->run(Array)
+#4 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(3378): TGMPA_Bulk_Installer->run(Array)
+#5 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(2984): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\class-tgm-plugin-activation.php(750): TGMPA_List_Table->process_bulk_actions()
+#7 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\HP\\Loc...')
+#12 {main}
+  thrown in C:\Users\HP\Local Sites\amazonnow\app\public\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+[25-Jul-2023 19:09:47 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:09:47 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:09:47 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:09:47 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:10:05 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:10:05 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:10:05 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:10:05 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:11:29 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:11:29 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:11:29 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:11:29 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:11:34 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:11:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:11:34 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:11:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:11:46 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:11:46 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:11:46 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:11:46 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:12:13 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:12:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:12:13 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:12:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:12:39 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:12:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:12:39 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:12:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:20:01 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:20:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:20:01 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:20:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:20:06 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:20:06 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:20:06 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:20:06 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:22:41 UTC] PHP Warning:  Undefined array key "rh-fake-acivity" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\screens\plugins.php on line 291
+[25-Jul-2023 19:23:39 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:23:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:23:39 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:23:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:23:45 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:23:45 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:23:45 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:23:45 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:23:49 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:23:49 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:23:49 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:23:49 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:24:53 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:24:53 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 462
+[25-Jul-2023 19:24:53 UTC] PHP Warning:  Undefined array key "ReMart" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:24:53 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\demo\import-demo.php on line 463
+[25-Jul-2023 19:37:58 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 252
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:37:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 219
+[25-Jul-2023 19:39:05 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 252
+[25-Jul-2023 19:41:05 UTC] PHP Warning:  Undefined array key "rh-fake-acivity" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\admin\screens\plugins.php on line 291
+[25-Jul-2023 19:42:02 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 252
+[25-Jul-2023 19:44:08 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 252
+[25-Jul-2023 20:02:56 UTC] PHP Warning:  Undefined array key "name" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\dokan-lite\includes\Admin\Settings.php on line 252
+[25-Jul-2023 20:08:36 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 100' at line 1 for query SELECT SQL_CALC_FOUND_ROWS * FROM wp_postmeta WHERE meta_key IN () LIMIT 100 made by require('wp-admin/edit-form-blocks.php'), require_once('wp-admin/admin-header.php'), do_action('admin_notices'), WP_Hook->do_action, WP_Hook->apply_filters, ContentEgg\application\components\ReviewNotice->displayNotice, ContentEgg\application\models\ProductModel->maybeScanProducts, ContentEgg\application\models\ProductModel->scanProducts
+[25-Jul-2023 20:13:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\functions\review_functions.php on line 499
+[25-Jul-2023 20:13:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\functions\review_functions.php on line 503
+[25-Jul-2023 20:13:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\functions\review_functions.php on line 526
+[25-Jul-2023 20:13:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\functions\review_functions.php on line 528
+[25-Jul-2023 20:13:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\functions\review_functions.php on line 528
+[25-Jul-2023 20:26:28 UTC] PHP Fatal error:  Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, null given in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\rehub-framework\inc\widgets\dealwoo.php:25
+Stack trace:
+#0 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\rehub-framework\inc\widgets\dealwoo.php(25): extract(NULL)
+#1 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\widgets\wordpress.php(256): rehub_deal_daywoo_widget->widget(NULL, Array)
+#2 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2268): Elementor\Widget_WordPress->render()
+#3 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#4 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#5 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\element-base.php(449): Elementor\Widget_Base->print_content()
+#6 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1354): Elementor\Element_Base->print_element()
+#7 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\element-base.php(449): Elementor\Element_Base->print_content()
+#8 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1354): Elementor\Element_Base->print_element()
+#9 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\base\element-base.php(449): Elementor\Element_Base->print_content()
+#10 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\core\base\document.php(1711): Elementor\Element_Base->print_element()
+#11 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\core\base\document.php(1106): Elementor\Core\Base\Document->print_elements(Array)
+#12 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#13 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\elementor\includes\frontend.php(1074): Elementor\Frontend->get_builder_content(1401)
+#14 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->apply_builder_in_content('<a href="http:/...')
+#15 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<a href="http:/...', Array)
+#16 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\post-template.php(255): apply_filters('the_content', '<a href="http:/...')
+#17 C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\page.php(133): the_content()
+#18 C:\Users\HP\Local Sites\amazonnow\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\HP\\Loc...')
+#19 C:\Users\HP\Local Sites\amazonnow\app\public\wp-blog-header.php(19): require_once('C:\\Users\\HP\\Loc...')
+#20 C:\Users\HP\Local Sites\amazonnow\app\public\index.php(17): require('C:\\Users\\HP\\Loc...')
+#21 {main}
+  thrown in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\plugins\rehub-framework\inc\widgets\dealwoo.php on line 25
+[25-Jul-2023 20:49:45 UTC] PHP Warning:  Undefined array key "ids" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\shortcodes\module_shortcodes.php on line 3913
+[25-Jul-2023 20:49:45 UTC] PHP Warning:  Undefined array key "ids" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\shortcodes\module_shortcodes.php on line 3913
+[25-Jul-2023 20:49:45 UTC] PHP Warning:  Undefined array key "ids" in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\shortcodes\module_shortcodes.php on line 3913
+[25-Jul-2023 20:52:48 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\functions\review_functions.php on line 499
+[25-Jul-2023 20:52:48 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\functions\review_functions.php on line 503
+[25-Jul-2023 20:52:48 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\functions\review_functions.php on line 526
+[25-Jul-2023 20:52:48 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\functions\review_functions.php on line 528
+[25-Jul-2023 20:52:48 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\amazonnow\app\public\wp-content\themes\rehub-theme\functions\review_functions.php on line 528
